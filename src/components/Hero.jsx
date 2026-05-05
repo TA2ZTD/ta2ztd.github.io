@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Terminal, BookOpen, Share2, MapPin, Mail } from 'lucide-react';
+import { Github, Linkedin, Terminal, BookOpen, Share2, MapPin, Mail, Shield, Users } from 'lucide-react';
 const Hero = ({ data, shared }) => {
     const [text, setText] = useState('');
     const fullText = `> ${data.personal.tagline}`;
@@ -45,6 +45,24 @@ const Hero = ({ data, shared }) => {
                     </div>
                 </div>
 
+                <div style={{ marginTop: '2rem', borderTop: '1px solid #333', paddingTop: '1rem' }}>
+                    <div style={{ color: 'var(--color-primary)', fontFamily: 'monospace', marginBottom: '1rem', display: 'flex', alignItems: 'center' }}>
+                        $ cat certificates.txt
+                    </div>
+                    <ul style={{ color: '#ccc', fontFamily: 'monospace', listStyleType: 'none', paddingLeft: '1rem', margin: 0, lineHeight: '1.6' }}>
+                        <li>&gt; Splunk Core Certified Power User (SPLK-1002)</li>
+                        <li>&gt; NATO Locked Shields 2026 - Certificate of Participation</li>
+                        <li>&gt; Splunk Core Certified User (SPLK-1001)</li>
+                        <li>&gt; Certified Threat Hunting Professional - eCTHPv2</li>
+                        <li>&gt; Mobile Application Penetration Tester - eMAPT</li>
+                        <li>&gt; INE Certified Junior Penetration Tester - eJPTv2</li>
+                        <li>&gt; INE Certified Cloud Associate - ICCA</li>
+                        <li>&gt; Certified Android Penetration Tester - CAPT</li>
+                        <li>&gt; UAV-1 Amateur / Sportive Pilot License</li>
+                        <li>&gt; Amateur Radio Operator License - Class A</li>
+                    </ul>
+                </div>
+
                 <div style={{
                     marginTop: '2rem',
                     display: 'flex',
@@ -52,6 +70,24 @@ const Hero = ({ data, shared }) => {
                     flexWrap: 'wrap',
                     justifyContent: 'flex-start'
                 }}>
+                    <a href="https://teamergenekon.org/" target="_blank" rel="noopener noreferrer" className="btn" style={{
+                        borderColor: 'var(--color-cyan)',
+                        color: 'var(--color-cyan)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        fontSize: 'clamp(0.8rem, 2vw, 1rem)'
+                    }}>
+                        <Shield size={20} style={{ marginRight: '8px' }} /> Team Ergenekon
+                    </a>
+                    <a href="https://gazisiber.org/" target="_blank" rel="noopener noreferrer" className="btn" style={{
+                        borderColor: 'var(--color-cyan)',
+                        color: 'var(--color-cyan)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        fontSize: 'clamp(0.8rem, 2vw, 1rem)'
+                    }}>
+                        <Users size={20} style={{ marginRight: '8px' }} /> Gazi Siber
+                    </a>
                     <a href={shared.github} target="_blank" rel="noopener noreferrer" className="btn" style={{
                         borderColor: 'var(--color-cyan)',
                         color: 'var(--color-cyan)',

@@ -57,7 +57,7 @@ function App() {
                             letterSpacing: '2px',
                             textShadow: '0 0 10px var(--color-primary)',
                             fontSize: 'clamp(1.5rem, 5vw, 2rem)'
-                        }}>SyCro</h1>
+                        }}>TA2ZTD</h1>
 
                         {/* Mobile menu button */}
                         <button
