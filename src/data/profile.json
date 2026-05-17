@@ -37,7 +37,7 @@
                 "id": 1,
                 "role": "Cyber Security Engineer - SOC Team Lead",
                 "company": "CBERNET Information Technologies",
-                "duration": "Kasım 2025 - Halen",
+                "duration": "Kasım 2025 - Mayıs 2026",
                 "description": "SOC izleme (Splunk, Wazuh), olay müdahalesi (Incident Response), web ve ağ sızma testleri. Kritik altyapı (SCADA/ICS) güvenliği üzerine özelleşmiş çalışmalar. Fortinet ürünleri yönetimi."
             },
             {
@@ -111,6 +111,18 @@
             }
         ],
         "awards": [
+            {
+                "title": "SPLK-1002 Splunk Core Certified Power User",
+                "organization": "Splunk",
+                "date": "2026",
+                "description": "Splunk Core Certified Power User certification."
+            },
+            {
+                "title": "NATO Locked Shields 2026 - Certificate of Participation",
+                "organization": "NATO",
+                "date": "2026",
+                "description": "Certificate of Participation for NATO Locked Shields 2026 exercise."
+            },
             {
                 "title": "CVE-2026-6001 Zafiyet Tespiti",
                 "organization": "Ulusal Siber Olaylara Müdahale Merkezi (USOM)",
@@ -186,12 +198,27 @@
         ],
         "news": [
             {
-                "id": 0,
+                "id": 11,
                 "date": "Blog",
                 "title": "DevSecOps Yolculuğu Bölüm 2: SonarQube kaynaklı SAST Bulgularının Doğrulanması",
                 "content": "DevSecOps Yolculuğu Bölüm 2: SonarQube kaynaklı SAST Bulgularının Doğrulanması",
-                "link": "https://medium.com/@ta2ztd/devsecops-yolculu%C4%9Fu-b%C3%B6l%C3%BCm-2-sonarqube-kaynakl%C4%B1-sast-bulgular%C4%B1n%C4%B1n-do%C4%9Frulanmas%C4%B1-c94cdcd02346"
+                "link": "https://ta2ztd.medium.com/devsecops-yolculu%C4%9Fu-b%C3%B6l%C3%BCm-2-sonarqube-kaynakl%C4%B1-sast-bulgular%C4%B1n%C4%B1n-do%C4%9Frulanmas%C4%B1-c94cdcd02346"
             },
+            {
+                "id": 12,
+                "date": "Blog",
+                "title": "DevSecOps Yolculuğu Bölüm 3: SCA Analizi",
+                "content": "DevSecOps Yolculuğu Bölüm 3: SCA Analizi",
+                "link": "https://ta2ztd.medium.com/devsecops-yolculu%C4%9Fu-b%C3%B6l%C3%BCm-3-sca-analizi-5599b9bc5c42"
+            },
+            {
+                "id": 13,
+                "date": "Blog",
+                "title": "DevSecOps Yolculuğu Bölüm 4: DAST ile Canlı Sistem Analizi",
+                "content": "DevSecOps Yolculuğu Bölüm 4: DAST ile Canlı Sistem Analizi",
+                "link": "https://ta2ztd.medium.com/devsecops-yolculu%C4%9Fu-b%C3%B6l%C3%BCm-4-dast-ile-canl%C4%B1-sistem-analizi-f5ed75df5909"
+            },
+
             {
                 "id": 1,
                 "date": "Blog",
@@ -296,7 +323,7 @@
                 "id": 1,
                 "role": "Cyber Security Engineer - SOC Team Lead",
                 "company": "CBERNET Information Technologies",
-                "duration": "Nov 2025 - Present",
+                "duration": "Nov 2025 - May 2026",
                 "description": "SOC monitoring (Splunk, Wazuh), Incident Response, web and network penetration testing. Specialized work on Critical Infrastructure (SCADA/ICS) security. Management of Fortinet products."
             },
             {
@@ -370,6 +397,18 @@
             }
         ],
         "awards": [
+            {
+                "title": "SPLK-1002 Splunk Core Certified Power User",
+                "organization": "Splunk",
+                "date": "2026",
+                "description": "Splunk Core Certified Power User certification."
+            },
+            {
+                "title": "NATO Locked Shields 2026 - Certificate of Participation",
+                "organization": "NATO",
+                "date": "2026",
+                "description": "Certificate of Participation for NATO Locked Shields 2026 exercise."
+            },
             {
                 "title": "CVE-2026-6001 Vulnerability Discovery",
                 "organization": "National Cyber Incident Response Center (USOM)",
@@ -445,12 +484,27 @@
         ],
         "news": [
             {
-                "id": 0,
+                "id": 11,
                 "date": "Blog",
                 "title": "DevSecOps Journey Part 2: Verifying SAST Findings from SonarQube",
                 "content": "DevSecOps Journey Part 2: Verifying SAST Findings from SonarQube",
-                "link": "https://medium.com/@ta2ztd/devsecops-yolculu%C4%9Fu-b%C3%B6l%C3%BCm-2-sonarqube-kaynakl%C4%B1-sast-bulgular%C4%B1n%C4%B1n-do%C4%9Frulanmas%C4%B1-c94cdcd02346"
+                "link": "https://ta2ztd.medium.com/devsecops-yolculu%C4%9Fu-b%C3%B6l%C3%BCm-2-sonarqube-kaynakl%C4%B1-sast-bulgular%C4%B1n%C4%B1n-do%C4%9Frulanmas%C4%B1-c94cdcd02346"
             },
+            {
+                "id": 12,
+                "date": "Blog",
+                "title": "DevSecOps Journey Part 3: SCA Analysis",
+                "content": "DevSecOps Journey Part 3: SCA Analysis",
+                "link": "https://ta2ztd.medium.com/devsecops-yolculu%C4%9Fu-b%C3%B6l%C3%BCm-3-sca-analizi-5599b9bc5c42"
+            },
+            {
+                "id": 13,
+                "date": "Blog",
+                "title": "DevSecOps Journey Part 4: Live System Analysis with DAST",
+                "content": "DevSecOps Journey Part 4: Live System Analysis with DAST",
+                "link": "https://ta2ztd.medium.com/devsecops-yolculu%C4%9Fu-b%C3%B6l%C3%BCm-4-dast-ile-canl%C4%B1-sistem-analizi-f5ed75df5909"
+            },
+
             {
                 "id": 1,
                 "date": "Blog",
